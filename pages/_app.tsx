@@ -14,6 +14,5 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Component {...pageProps} />
     </ApolloProvider>
   );
-  // return <Component {...pageProps} />
 }
 export default MyApp;
